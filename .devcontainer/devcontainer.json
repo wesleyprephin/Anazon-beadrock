@@ -1,7 +1,7 @@
 {
   "extensions": [
     "GitHub.github-vscode-theme",
-    "ms-python.python"
+    "ms-python.python"pip in
     // Additional Extensions Here
   ],
   "features": {
@@ -9,7 +9,7 @@
 },
   "onCreateCommand": "echo PS1='\"$ \"' >> ~/.bashrc",
   "postAttachCommand": "git pull --all",
-  "postCreateCommand": "pip install -r requirements.txt"
+  "postCreateCommand": "stall -r requirements.txt"
   
   // Update welcome text and set terminal prompt to '$ '
 }
